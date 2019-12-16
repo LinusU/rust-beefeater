@@ -1,5 +1,8 @@
 //! Generic guard around any type that implements Copy
 
+pub mod ops;
+pub use ops::*;
+
 use std::fmt;
 use std::mem;
 use std::sync::Mutex;
